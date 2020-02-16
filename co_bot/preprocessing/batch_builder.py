@@ -5,7 +5,7 @@ from typing import Sequence, Tuple
 from torch.nn.utils.rnn import pad_sequence
 from torch import LongTensor, Tensor
 
-from co_bot.preprocessing.tonekizer import Tokenizer
+from co_bot.preprocessing.tokenizer import Tokenizer
 
 
 class BatchBuilder:
